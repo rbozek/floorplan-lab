@@ -9,10 +9,10 @@ const FloorPlan = (props) => {
     <div className='floorplan'>
       <Bedroom bedNum={'1'} />
       <Kitchen />
-      <Bath name={'Full'}/>
+      <Bath name={'Full'} />
       <Bedroom bedNum={'2'} />
       <LivingRoom />
-      <Bath name={'Half'}/>
+      <Bath name={'Half'} />
       <Bedroom bedNum={'3'} />
     </div>
   );
