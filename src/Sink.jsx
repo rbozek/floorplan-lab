@@ -1,6 +1,8 @@
 const Sink = (props) => {
   return ( 
-    <div>Sink</div>
+    <div id="kitchen-sink">
+      Sink
+    </div>
   );
 }
  

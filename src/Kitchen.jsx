@@ -4,11 +4,15 @@ import Sink from "./Sink";
 const Kitchen = (props) => {
   return ( 
     <div className="kitchen">
+
       <div id="kitchen-appliances">
-      <Oven/>
-      <Sink/>
+        <Oven/>
+        <Sink/>
       </div>
+
+      <div id="kitchen-title">
       Kitchen
+      </div>
     </div>
 
   );
